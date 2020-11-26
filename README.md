@@ -32,18 +32,24 @@ a. insert(Student) to insert a new student. It should be inserted based on his I
 that has doubly linked list represents students in that year, if no node created yet for that
 year (i.e. this is the first student) then a new node should be created, you can insert at the
 beginning or at the end.
+
 b. find( int id) it returns a student with that ID or null.
+
 c. delete(int id ): it deletes the students with the input id and returns true, or returns false if
 there is no students with that id. If that student is the only one in that node, then node should
 be also deleted.
+
 d. addSubject(id, sub) the method will receive student’s id and a subject object, it adds that
 subject to the student’s arraylist of subjects and returns true, if there is no students with the
-subject, it returns false.2
+subject, it returns false.
+
 e. Avg(int year): which returns the average grade of all students in that year. The average will
 the total of all grades/ no. of subjects for all students in that year. If no students, the method
 should return zero.
+
 f. PirntStudents: which prints all students (ids and names), the students should be printed
 based on their years of admissions in an ascending order, for example first print all students
 who were admitted in 2017, then 2018, …etc. You need to add method toString to class
-DoublyLinkedlist that returns a string represents data of each object in the list,
+DoublyLinkedlist that returns a string represents data of each object in the list.
+
 g. Test your structure in a test application (contains main method).
